@@ -39,5 +39,4 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
-  config.action_mailer.postmark_settings = { :api_token => "4431de2b-1c60-4891-b3ea-9b6d9c19ec0f" }
 end

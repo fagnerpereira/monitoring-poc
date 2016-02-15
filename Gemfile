@@ -10,9 +10,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sidekiq'
 gem 'redis', '~>3.2'
-gem 'postmark-rails'
+gem 'rest-client'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
   gem 'pry'
 end
 
